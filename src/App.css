@@ -1,0 +1,73 @@
+
+/* HOME PAGE */
+.homepage{
+  font-size: 17px;
+  font-family: inria serif;
+}
+
+.homenav{
+  /* border: 1px solid #F37A45; */
+  padding: 20px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.findJobBtn{
+  border: 1px solid #F37A45;
+  padding: 5px 15px;
+  border-radius: 12px;
+  color: #F37A45;
+}
+
+.homepageContent{
+  margin-top: 2.5%;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.homepageContent div{
+  margin-bottom: 10px;
+}
+.homepageContent #main{
+  font-size: 32px;
+  font-weight: 700;
+  color: #4B67B0;
+}
+
+.homepageContent #sub{
+  font-size: 21px;
+  font-weight: 600;
+  color: #F37A45;
+}
+
+.homepageContent .findJobBtn{
+  font-weight: 500;
+  background-color: #F37A45;
+  color: white;
+  padding: 8px 30px;
+  font-size: 18px;
+}
+
+footer{
+  /* border: 1px solid black; */
+  font-family: "Inter", sans-serif;
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+}
+
+footer>div{
+  margin: 0 15%;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  color: #659DD6;
+}
+
+footer>div div:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
