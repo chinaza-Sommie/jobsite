@@ -1,11 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
-import Homepage from './pages/home';
+// import Homepage from './pages/home';
+import Search from './pages/search';
 
 function App() {
   return (
     <div >
-      <Homepage />
+      {/* <Homepage /> */}
+      <Search />
     </div>
   );
 }

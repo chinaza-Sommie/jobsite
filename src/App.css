@@ -1,5 +1,8 @@
 
 /* HOME PAGE */
+*{
+  box-sizing: border-box;
+}
 .homepage{
   font-size: 17px;
   font-family: inria serif;
@@ -70,4 +73,127 @@ footer>div{
 footer>div div:hover{
   cursor: pointer;
   text-decoration: underline;
+}
+
+
+/* search */
+
+#searchForm{
+  /* border: 1px solid red; */
+  width: 38%;
+  margin-top: 30px;
+  font-family: "Inter", sans-serif;
+}
+
+#searchForm .inputFields{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+#searchForm .inputFields input{
+  border: none;
+  outline: none;
+  border: 2px solid #F37A45;
+  width: 45%;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 10px 8px;
+}
+
+#searchForm input[type='submit'] {
+  width: 100%;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 8px;
+  background-color: #F37A45;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+.searchTerms{
+  width: 38%;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  
+}
+
+.searchTerms div{
+  background-color: #C4DCF5;
+  padding: 8px 30px;
+  color: #4B67B0;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Job display */
+.eachjob-container{
+   font-family: "Inter", sans-serif;
+  width:30%;
+  padding:20px;
+  /* border: 1px solid #F37A45; */
+  border: 1px solid grey;
+  box-shadow: 5px 5px 5px #ddd;
+  border-radius: 10px;
+}
+.eachjob-container div{
+  margin-bottom: 10px;
+}
+.eachjob-container .jobtitle{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.eachjob-container .button{
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  outline: none;
+  border: none;
+  border: 1px solid #4B67B0;
+  background-color: #4B67B0;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
+#datePosted, .eachjob-container ul li{
+  font-size: 13px;
+  background-color: #C4DCF5;
+  color: #4B67B0;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 10px;
+  /* width: 50%; */
+}
+
+#datePosted{
+  margin-bottom: 20px;
+}
+.eachjob-container ul{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  padding: 0;
+}
+
+.eachjob-container ul li{
+  background-color: #ffb08ead;
+  color: #F37A45;
+  margin-right: 5%;
+  margin-bottom: 15px;
+}
+
+#company, #location{
+  font-size: 14px;
 }
